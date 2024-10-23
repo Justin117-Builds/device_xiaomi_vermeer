@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "VermeerDeviceAsWebcamRes",
+    name: "VermeerSettings",
     device_specific: true,
 }

@@ -1,20 +1,32 @@
-# Common device configuration for Xiaomi 8550 family
+Device Tree for POCO F6 Pro / Redmi K70 (vermeer)
+=========================================
 
-## Currently supported devices:
+The POCO F6 Pro / Redmi K70 is a flagship midranger phone from Xiaomi released under its POCO and Redmi brands.
 
-- Xiaomi 13 (fuxi)
-- Xiaomi 13 Pro (nuwa)
-- Xiaomi 13 Ultra (ishtar)
-- POCO F6 Pro / Redmi K70 (vermeer)
+It was released in November 2023.
 
-## Currently supported SoCs
+## Device specifications
 
-- SM8550 (kalama)
+Basic   | Spec Sheet
+-------:|:-------------------------
+SoC     | Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)
+CPU     | Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)
+GPU     | Adreno 740
+Memory  | 256GB 12GB RAM, 512GB 12GB RAM, 1TB 16GB RAM
+Shipped Android Version | Android 14
+Battery | Li-Po 5000 mAh, non-removable
+Display | 1440 x 3200 pixels, 20:9 ratio (~526 ppi density), AMOLED, 68B colors, 120Hz, Dolby Vision, HDR10+, 700 nits (typ), 1200 nits (HBM), 4000 nits (peak)
+
+## Device picture
+
+![vermeer](https://www.mytrendyphone.es/images/Xiaomi-Poco-F6-Pro-256GB-White-6941812774786-04072024-00-p.webp)
 
 ## Copyright
 
 ```
-Copyright (C) 2024 Paranoid Android
-
-SPDX-License-Identifier: Apache-2.0
+#
+# Copyright (C) 2024 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
 ```

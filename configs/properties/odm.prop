@@ -2,11 +2,15 @@
 vendor.audio.hdr.record.enable=false
 
 # Display
+ro.vendor.touchfeature.type=247
 persist.sys.sf.color_mode=0
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.set_touch_timer_ms=200
 ro.surface_flinger.set_idle_timer_ms=80
+
+# Region
+import /odm/etc/build_${ro.boot.hwc}.prop
 
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
@@ -19,3 +23,6 @@ vendor.gatekeeper.disable_spu=true
 
 # QTI
 ro.vendor.qti.va_odm.support=1
+
+# NFC chip
+ro.vendor.se.chip.model=SN110T

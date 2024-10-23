@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2023-2024 Paranoid Android
+// Copyright (C) 2023-2024 The LineageOS Project
 //
 // SPDX-License-Identifier: Apache-2.0
 //
@@ -66,6 +66,13 @@ prebuilt_etc {
     vendor: true,
 }
 
+prebuilt_etc {
+    name: "init.mi_device.rc",
+    src: "init.mi_device.rc",
+    sub_dir: "init/hw",
+    device_specific: true,
+}
+
 sh_binary {
     name: "init.class_main.sh",
     src: "init.class_main.sh",
@@ -85,8 +92,8 @@ sh_binary {
 }
 
 cc_library_static {
-    name: "libinit_xiaomi_sm8550",
-    srcs: ["init_xiaomi8550.cpp"],
+    name: "libinit_vermeer",
+    srcs: ["init_vermeer.cpp"],
     recovery_available: true,
     whole_static_libs: ["libbase"],
     include_dirs: [

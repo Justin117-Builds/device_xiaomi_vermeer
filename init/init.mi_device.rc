@@ -1,0 +1,11 @@
+# Copyright (C) 2024 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+
+on property:vendor.post_boot.parsed=1
+    # Disable THP
+    write /sys/class/touch/touch_dev/clicktouch_raw 0
+
+on property:sys.boot_completed=1
+    #Stop Statsd
+    stop statsd
