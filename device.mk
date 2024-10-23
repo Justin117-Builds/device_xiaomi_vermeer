@@ -323,9 +323,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
 
-# Kernel
-include $(LOCAL_PATH)/kernel/kernel-platform.mk
-
 # Kernel Binary
 KERNEL_PREBUILT_DIR := device/xiaomi/vermeer-kernel
 
